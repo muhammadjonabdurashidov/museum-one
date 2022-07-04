@@ -18,7 +18,7 @@
 
 .hero-title {
   @include font-style(400, 80px, 90px);
-  width: 650px;
+  max-width: 650px;
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #fff;
@@ -177,6 +177,7 @@
     @include font-style(400, 28px, 40px);
     margin: 0;
     text-align: center;
+    max-width: 328px;
   }
 
   .hero-boxes-text {
@@ -225,7 +226,7 @@
     @include font-style(400, 28px, 40px);
     margin: 0;
     text-align: center;
-    width: 300px;
+    max-width: 300px;
   }
 
   .hero-boxes-text {
